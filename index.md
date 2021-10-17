@@ -1,1 +1,170 @@
 This is a test
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>TVC's Web page</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="welcome.html">Web page of Thierry Van Cutsem</a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="welcome.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+		  <li><a href="collaborations.html">Collaborations</a></li> 
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="software.html">Software</a></li>
+        </ul>
+      </div>
+    </div>
+	
+    <div id="site_content">
+	
+	<! passage en couleur noire>
+	<span style="color:black">
+	
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+		
+		<p><img src="img/TVC.jpg" alt="me" width="200"  "height=250" /></p>
+		<p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+		<p><img src="img/ULg_logo.jpg" alt="ULg_logo" width="170" "height=120" /></p>
+		<p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+		<p><img src="img/fnrs.jpg" alt="FNRS_logo" width="170"  "height=27" /></p>
+		<p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+		<p><img src="img/PES_logo.jpg" alt="PES_logo" width="170"  "height=117" /></p>
+		<p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+		<p><img src="img/CIGRE_logo.png" alt="CIGRE_logo" width="170"  "height=83" /></p>
+      </div>
+	  
+      <div id="content">
+        <!-- insert the page content here -->
+		
+		<table style="width:100%; border-spacing:0;">
+          <tr><th>Contact me</th><th>My office</th></tr>
+          <tr><td>Office phone: +32 4 366 26 89</td><td>Room 0/13 in building B37, Sart Tilman campus</td></tr>
+          <tr><td>Cellular: +32 494 06 33 73</td><td>GPS coordinates:<br> 50°35'09" N - 5°33'32" E</td></tr>
+          <tr><td>Fax: +32 4 366 45 82</td><td><a href="http://maps.google.be/maps?f=d&amp;ie=UTF8&amp;ll=50.586139,5.561013&amp;spn=0.007248,0.018947&amp;z=16&amp;hl=fr" target="_blank">surroundings in Google Maps</a></td></tr>
+          
+		  <tr><td>Postal address: <br> University of Liège, Dept. Electrical Engineering & Computer Science, Sart Tilman B37, B-4000 Liège, Belgium</td>
+		  <td><a href="http://www2.ulg.ac.be/acces/plans/zonenord.html" target="_blank">interactive map of the campus</a></td></tr>
+		  <tr><td>e-mail: <a href="mailto:t.vancutsem@ulg.ac.be">t.vancutsem@ulg.ac.be</td><td> </td></tr>
+        </table>
+		
+		<h1>Current positions</h1>
+		<ul>
+			<li>Research Director of the <a href="http://www1.frs-fnrs.be/" target="_blank">Fund for Scientific Research (FNRS)</a>
+			<li>Adjunct Professor at the <a href="http://www.facsa.ulg.ac.be/cms/index.php" target="_blank"> Faculty of Applied Sciences (Engineering)</a>, <a href="http://www.montefiore.ulg.ac.be?locale=eng" target="_blank"> Dept. of Electrical Engineeering and Computer Science (Montefiore Institute)</a> of the <a href="http://www.ulg.ac.be/cms/c_5000/en/accueil" target="_blank"> University of Liège</a></li>
+		</ul>
+		
+		<h1>International working groups</h1>
+		<ul>
+			<li><h4><a href="http://www.ieee.org" target="_blank">IEEE (Institute of Electrical and Electronic Engineers)</a> - <a href="http://www.ieee-pes.org/" target="_blank">PES (Power and Energy Society)</a>:</h4>
+			<ul>
+				<li>Past-Chair of the <a href="http://ewh.ieee.org/soc/pes/psdpc/index.htm" target="_blank">Power System Dynamic Performance Committee</a> - since Jan. 2015    (previously secretary, Vice-Chair, and Chair)</li>
+				<li>Editor of IEEE Transactions on Power Systems - from Jan. 2005 to Dec. 2008</li>
+			</ul>
+			</li>
+			
+			<li><h4>Ongoing international working groups:</h4>
+			<ul>
+				<li>member of <a href="http://www.cigre.org/" target="_blank">CIGRE</a> Working Group B5.14 on <i>Wide-area protection and control technologies</i></li>
+				<li>member of IEEE Working Group on <i>Dynamic Security Assessment</i></li>
+				<li>member of IEEE Working Group on <i>Voltage Stability</i></li>
+				<li>chair of IEEE Task Force on <i>Tests systems for voltage stability and Security assessment</i></li>
+				<li>member of Joint CIGRE/CIRED Working Group C4-C6-35 on <i>Modelling and dynamic performance of inverter based generation in power system transmission and distribution studies</i></li>
+				<li>member of IEEE Task Force on <i>Contribution to Bulk System Control and Stability by Distributed Energy Resources connected at Distribution Networks</i></li>		
+			</ul>
+			</li>
+		
+			<li><h4>Completed international working groups:</h4>
+			<ul>
+				<li>member of CIGRE Working Group C4.6</li>
+				<li>member of CIGRE Task Force 38.02.23 on <i>Coordinated Voltage Control in Transmission Networks</i></li>
+				<li>member of CIGRE/IEEE joint Task Force on <i>Stability Terms and Definitions</i></li>
+				<li>Contributor to the <i>Voltage stability assessment: concepts, practices and tools</i> report of IEEE Power System Stability Subcommittee</li></li>
+				<li>member of CIGRE Task Force 38.02.19 on <i>System protection schemes in power networks</i></li>
+				<li>member of CIGRE Working group 34.08 on <i>Protection against Voltage Collapse</i></li>
+				<li>member of CIGRE Task Force 38.02.11 on <i>Indices predicting voltage collapse including dynamic phenomena</i></li>
+			</ul>
+			</li>
+		</ul>
+		
+		<h1>Teaching</h1>
+		<ul>
+			<li><a href="courses.html">Courses at the University of Liège</a></li>
+			<li>Lecturer in the "<a href= "http://www.chaire-reseau-elec.com" target="_blank">Chaire Réseau électrique</a>" of Ecole Centrale de Lille (France)</li>
+			<li>lectures at Universities of Manchester (UK), Seville, Pontificia Comillas Madrid (Spain), etc.</li>
+			<li>tutorials at conferences : IEEE ISGT Europe 2013, IEEE PES General Meeting 2009, PSCC 2008, etc.</li>
+			<li>in-house courses at Hydro-Québec (Canada), instructor in EES-UETP courses, etc.</li>
+		</ul>	
+		
+		<h1>Member of Scientific committees of conferences and Advisory board of projects</h1>
+		<ul>
+			<li>Technical Program Committee of the <a href="http://pscc.ee.ethz.ch/en/about-pscc/about-pscc.html" target="_blank"> PSCC (Power System Computation Conferences)</a>: Sevilla 2002, Liège 2005, Glasgow 2008, Stockholm 2011, Wroclaw 2014, Genoa 2016, Dublin 2018</li>
+			<li>International advisory committee of IEEE PES PowerTech conferences: Porto 2001, Bologna 2003, St Petersburg 2005, Lausanne 2007, Bucharest 2009, Trondheim 2011, Eindhoven 2015, Manchester 2017</li>
+			<li>Technical program committee of the IREP Symposia : Onomichi 2002, Cortina d’Ampezzo 2004, Buzios 2010, Rethymnon 2013, Espinho 2017</li>
+			<li>International advisory committees of several other conferences</li>
+			<li>International advisory board of SOSPO (Secure Operation of Sustainable P0wer Systems), Danish Technical University, Copenhagen, Denmark</li>
+		</ul>
+		
+    	<h1>Scientific distinctions/awards</h1>
+		<ul>
+		    <li>Prize paper award of the IEEE PES Power System Dynamic Performance Committee (2017)</li>
+			<li>Best paper award at 8th IFAC Symp. on Power Plant & Power System Control (2012)</li>
+			<li>Prize paper award of the IEEE PES Power System Dynamic Performance Committee (2011)</li>
+			<li>Membre émérite de la <a target="_blank" href="http://www.see.asso.fr/">SEE (Société de l'Electricité, de l'Electronique et des technologies de l'information et de la communication)</a> (France) (2007)</li>
+			<li>Fellow of the IEEE (Institute of Electrical and Electronic Engineers) for <i>Contributions to voltage security analysis and control (2005)</i></li>
+			<li>Prize paper award of the IEEE PES Power System Dynamic Performance Committee (2005)</li>
+			<li>Médaille André Blondel de la SEE (France) (1997) 
+			<li>Prix Adolphe Wetrems de l'Académie royale de Belgique (1995)</li>
+			<li>Sebastian de Ferranti premium from the IEE council (session 1992/1993)</li>
+			<li>Prix André Leroux des Amis de l'ULg (1984)</li>
+			<li>Prix SRBE pour mémoire de fin d'études (1979)</li>
+		</ul>
+		<h4>Awards received by my PhD students:</h4>
+		<p>
+		<ul>
+			<li>2016 Research and Development award of SRBE (Royal Belgian Society of Electrical Engineers): Gilles Chaspierre, for his Master thesis "Dynamic modeling of photovoltaic units in response to voltage disturbances"</li>
+		    <li>B. Papadias award for high-quality student paper at IEEE PES 2015 PowerTech conference (Eindhoven): Lampros Papangelis</li>
+		    <li>The paper presented by Frédéric Plumier at the IEEE PES General Meeting (Washington DC, July 2014) was selected as one of only four "best of the best" conference papers</li>
+		    <li>Petros Aristidou won one of the two best student papers at CIGRE Conf. on Innovation for secure and efficient transmission grids (Brussels, 2014)</li>
+			<li>B. Papadias award for high-quality student paper at IEEE 2013 PowerTech conference (Grenoble): Petros Aristidou</li>
+			<li>B. Papadias award for high-quality student paper at IEEE 2009 PowerTech conference (Bucarest): Adamantios Marinakis</li>
+			<li>B. Papadias award for high-quality student paper at IEEE 2007 PowerTech conference (Lausanne): Bogdan Otomega</li>
+		</ul>
+      </div>
+    </div>
+	</span>
+    <div id="content_footer"></div>
+    <div id="footer">
+      Copyright &copy; colour_blue | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a>
+    </div>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-47134911-1', 'ulg.ac.be');
+	  ga('send', 'pageview');
+
+	</script>
+  </div>
+</body>
+</html>
