@@ -1,4 +1,3 @@
-This is a test
 <!DOCTYPE HTML>
 <html>
 
