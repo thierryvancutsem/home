@@ -1,0 +1,22 @@
+$TOLAC   0.01 ;   tolerance in MW on active power mismatches
+$TOLREAC 0.01 ;   tolerance in Mvar on reactive power mismatches
+$NBITMA   15 ;   maximum number of Newton iterations
+$MISBLOC  0. ;   tolerance in MVA below which the Jacobian is frozen
+$MISADJ   1. ;   tolerance in MVA below which transfo ratios are adjusted (if requested)
+$MISQLIM  1. ;   tolerance in Mvar below which reactive power limits are checked 
+$PLIM 1 ;        1 = limits specified in TURLIM records are taken into account
+#                    (except at slack-bus)
+$DIVDET 0 ;      1 = Newton iterations stopped as soon as divergence is detected
+
+BUS A  150.   0  0  0  0 ;
+BUS B   36.   0  0  0  0 ;
+BUS C   36.   0  0  0  0 ;
+BUS D    6.  15  7  0  0 ;
+BUS E   15.   0  0  0  0 ;
+TRFO B-A B A '' 0.5 11.  0.   95. 27  0 0 0 0 0 1 ;
+TRFO C-D C D '' 0.6 10.  0.  103. 20. 0 0 0 0 0 1 ;
+TRFO C-E C E '' 0.6 12.6 0.   97. 10. 0 0 0 0 0 1 ;
+LINE B-C B C 0.909  1.659  645.1 24 1 ;
+GENER A A A  0.0 0.0  1. 9999. -9999 9999 1 ;
+GENER E E E  6.0 2.0  0.  10.    -1   10  1 ;
+SLACK A ;
